@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2026-01-26T15:10:46.278Z
+ * Last updated: 2026-01-26T15:13:00.985Z
  */
 
 // contactInfo configuration
@@ -336,99 +336,108 @@ export const homeShowcaseSections = [
   }
 ];
 
-// neighborhood configuration
+// neighborhood configuration (drives NeighborhoodOverview descriptive copy)
 export const neighborhood = {
-  name: "Fort Erie",
+  name: "Black Creek",
   city: "Fort Erie",
-  description: "Fort Erie's premier destination for culture, dining, and urban living.",
+  description:
+    "Black Creek is a riverside neighbourhood in Fort Erie with close access to regional parks and historic sites along the Niagara corridor. The area is oriented toward driving and outdoor recreation — residents enjoy proximity to waterfront trails, family attractions and seasonal events.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway",
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Old Fort Erie – War of 1812 historic site with reenactments and demonstrations",
+    "Safari Niagara – regional wildlife attraction and family destination",
+    "Fort Erie Race Track – seasonal live thoroughbred racing and dining venues",
+    "Friendship Trail – scenic multi-kilometre path for walking and cycling along the waterfront",
+    "Fort Erie Historical Museum – local history exhibits in a restored 19th‑century building"
   ]
 };
 
 // neighborhoodAmenities configuration
+// Selected from input highlights / top-rated lists; distances shown as nearby reference (see map)
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Clifton Hill",
+    distance: "Nearby — see map",
     category: "shopping",
     icon: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Black Creek Riverside Park",
+    distance: "Nearby — see map",
     category: "recreation",
     icon: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Fort Erie Historical Museum",
+    distance: "Nearby — see map",
+    category: "education",
     icon: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "Waffle Bandits",
+    distance: "Nearby — see map",
     category: "dining",
-    icon: "Wine"
+    icon: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Maggie's Grill",
+    distance: "Nearby — see map",
     category: "dining",
     icon: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "Niagara Transit / Go Transit Bus Garage",
+    distance: "Nearby — see map",
     category: "transportation",
-    icon: "Train"
+    icon: "Car"
+  },
+  {
+    id: 7,
+    name: "Niawanda Park",
+    distance: "Nearby — see map",
+    category: "recreation",
+    icon: "Users"
+  },
+  {
+    id: 8,
+    name: "Niagara Falls Transit Terminal",
+    distance: "Nearby — see map",
+    category: "business",
+    icon: "Wifi"
   }
 ];
 
 // neighborhoodStats configuration
+// Using available scores from input where provided; Transit score marked N/A due to no numeric value in input
 export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "10/100",
+    caption: "Car-Dependent",
     icon: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "N/A",
+    caption: "Limited Transit",
     icon: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
-    icon: "School",
-    color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    icon: "Clock", 
-    color: "bg-amber-500"
+    title: "Bike Score",
+    value: "27/100",
+    caption: "Somewhat Bikeable",
+    icon: "Compass",
+    color: "bg-blue-500"
   }
 ];
 
