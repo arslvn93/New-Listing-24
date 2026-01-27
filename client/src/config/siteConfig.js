@@ -587,7 +587,7 @@ export const formQuestions = [
   {
     id: 1,
     key: 'currentSituation',
-    question: 'What's your current situation?',
+    question: 'What is your current situation?',
     order: 1,
     options: [
       { value: 'own', label: 'I own my home', emoji: '🏠' },
