@@ -122,7 +122,7 @@ const NeighborhoodOverview = () => {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-['Poppins'] uppercase mb-3 tracking-wider text-white">
-            Neighborhood
+            Neighbourhood
           </h2>
           <div className="w-24 h-1 bg-[#D9A566] mx-auto mb-6"></div>
           <p className="text-white/80 font-['Titillium_Web'] max-w-3xl mx-auto text-lg leading-relaxed">
@@ -306,7 +306,7 @@ const NeighborhoodOverview = () => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-['Poppins'] text-white mb-4">Neighborhood Highlights</h3>
+              <h3 className="text-2xl font-['Poppins'] text-white mb-4">Neighbourhood Highlights</h3>
               <ul className="space-y-2 text-white/80 font-['Titillium_Web']">
                 {neighborhood.highlights.map((highlight, index) => (
                   <li key={index} className="flex items-center">

@@ -335,7 +335,7 @@ const OpenHouseSignIn = () => {
                   {/* Neighborhood data document */}
                   <div className="absolute top-16 right-5 w-[230px] h-[120px] bg-[#f0f0f0] rounded-l-md shadow-md overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-8" style={{ backgroundColor: `${primaryColor}0D` }}></div>
-                    <div className="absolute top-2 left-3 text-xs font-bold text-gray-800">NEIGHBORHOOD</div>
+                    <div className="absolute top-2 left-3 text-xs font-bold text-gray-800">NEIGHBOURHOOD</div>
                     <div className="px-3 pt-10">
                       <div className="flex justify-between mb-2">
                         <div className="h-2 w-12 bg-gray-400 rounded"></div>

@@ -4,7 +4,7 @@ const Location = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-[#D9A566] font-['Titillium_Web'] tracking-widest inline-block mb-2">LOCATION</span>
-          <h2 className="text-4xl font-['Poppins'] uppercase tracking-wider">Neighborhood & Accessibility</h2>
+          <h2 className="text-4xl font-['Poppins'] uppercase tracking-wider">Neighbourhood & Accessibility</h2>
         </div>
         
         <div className="flex flex-col lg:flex-row gap-8">
@@ -22,7 +22,7 @@ const Location = () => {
           <div className="lg:w-1/2 fade-in">
             <h3 className="text-2xl font-['Poppins'] mb-6">Premier Location</h3>
             <p className="font-['Titillium_Web'] text-lg mb-6">
-              Located in the prestigious Hillcrest Estates neighborhood, this property offers the perfect blend of privacy, convenience, and luxury living.
+              Located in the prestigious Hillcrest Estates neighbourhood, this property offers the perfect blend of privacy, convenience, and luxury living.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">

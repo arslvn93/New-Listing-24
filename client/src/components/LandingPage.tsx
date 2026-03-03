@@ -139,7 +139,7 @@ const LandingPage = () => {
       <PropertyFeatures />
       <HomeHighlights />
       <PhotoGallery />
-      <NeighborhoodOverview />
+      <NeighbourhoodOverview />
       <ExclusivePackage />
       <Testimonials />
       <Footer />

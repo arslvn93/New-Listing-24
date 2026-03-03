@@ -790,7 +790,7 @@ const ExclusivePackage = () => {
                       </div>
                       <div className="flex items-center gap-2 text-white/70 text-xs">
                         <Sparkles className="w-3.5 h-3.5" style={{ color: primaryColor }} />
-                        <span>Neighborhood insights</span>
+                        <span>Neighbourhood insights</span>
                       </div>
                     </div>
                     
