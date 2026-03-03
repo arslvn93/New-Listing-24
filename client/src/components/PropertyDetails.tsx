@@ -29,7 +29,7 @@ const PropertyDetails = () => {
         { label: 'Bedrooms', value: property.beds.toString(), icon: Bed },
         { label: 'Bathrooms', value: property.baths.toString(), icon: Bath },
         { label: 'Price', value: property.price, icon: DollarSign },
-        { label: 'Parking', value: 'Included', icon: Car },
+        { label: 'Parking', value: '5 Driveway Parking Spaces', icon: Car },
       ]
     },
     {
